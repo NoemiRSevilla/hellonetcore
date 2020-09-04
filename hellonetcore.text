@@ -1,0 +1,72 @@
+Noemis-MacBook-Pro:hellonetcore IrockMyWarlock$ dotnet --version
+2.2.107
+Noemis-MacBook-Pro:hellonetcore IrockMyWarlock$ s
+bash: s: command not found
+Noemis-MacBook-Pro:hellonetcore IrockMyWarlock$ ls
+Noemis-MacBook-Pro:hellonetcore IrockMyWarlock$ dotnet new console
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on /Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/hellonetcore.csproj...
+  Restoring packages for /Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/hellonetcore.csproj...
+  Generating MSBuild file /Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/obj/hellonetcore.csproj.nuget.g.props.
+  Generating MSBuild file /Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/obj/hellonetcore.csproj.nuget.g.targets.
+  Restore completed in 432.89 ms for /Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/hellonetcore.csproj.
+
+Restore succeeded.
+
+Noemis-MacBook-Pro:hellonetcore IrockMyWarlock$ dotnet build
+Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 53.58 ms for /Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/hellonetcore.csproj.
+  hellonetcore -> /Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/bin/Debug/netcoreapp2.2/hellonetcore.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.13
+Noemis-MacBook-Pro:hellonetcore IrockMyWarlock$ ls
+Program.cs              bin                     hellonetcore.csproj     obj
+Noemis-MacBook-Pro:hellonetcore IrockMyWarlock$ ls
+Program.cs              bin                     hellonetcore.csproj     obj
+Noemis-MacBook-Pro:hellonetcore IrockMyWarlock$ cd bin
+Noemis-MacBook-Pro:bin IrockMyWarlock$ cd Debug
+Noemis-MacBook-Pro:Debug IrockMyWarlock$ cd netcoreapp2.2
+Noemis-MacBook-Pro:netcoreapp2.2 IrockMyWarlock$ dotnet hellonetcore.dll
+Hello World!
+Noemis-MacBook-Pro:netcoreapp2.2 IrockMyWarlock$ dotnet run
+Couldn't find a project to run. Ensure a project exists in /Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/bin/Debug/netcoreapp2.2, or pass the path to the project using --project.
+Noemis-MacBook-Pro:netcoreapp2.2 IrockMyWarlock$ ls
+hellonetcore.deps.json                  hellonetcore.runtimeconfig.dev.json
+hellonetcore.dll                        hellonetcore.runtimeconfig.json
+hellonetcore.pdb
+Noemis-MacBook-Pro:netcoreapp2.2 IrockMyWarlock$ dotnet run
+Couldn't find a project to run. Ensure a project exists in /Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/bin/Debug/netcoreapp2.2, or pass the path to the project using --project.
+Noemis-MacBook-Pro:netcoreapp2.2 IrockMyWarlock$ dotnet run hellonetcore.dll
+Couldn't find a project to run. Ensure a project exists in /Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/bin/Debug/netcoreapp2.2, or pass the path to the project using --project.
+Noemis-MacBook-Pro:netcoreapp2.2 IrockMyWarlock$ ls
+hellonetcore.deps.json                  hellonetcore.runtimeconfig.dev.json
+hellonetcore.dll                        hellonetcore.runtimeconfig.json
+hellonetcore.pdb
+Noemis-MacBook-Pro:netcoreapp2.2 IrockMyWarlock$ dotnet run hellonetcore.dll
+Couldn't find a project to run. Ensure a project exists in /Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/bin/Debug/netcoreapp2.2, or pass the path to the project using --project.
+Noemis-MacBook-Pro:netcoreapp2.2 IrockMyWarlock$ cd ..
+Noemis-MacBook-Pro:Debug IrockMyWarlock$ ls
+netcoreapp2.2
+Noemis-MacBook-Pro:Debug IrockMyWarlock$ dotnet run
+Couldn't find a project to run. Ensure a project exists in /Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/bin/Debug, or pass the path to the project using --project.
+Noemis-MacBook-Pro:Debug IrockMyWarlock$ cd ..
+Noemis-MacBook-Pro:bin IrockMyWarlock$ ls
+Debug
+Noemis-MacBook-Pro:bin IrockMyWarlock$ dotnet run
+Couldn't find a project to run. Ensure a project exists in /Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/bin, or pass the path to the project using --project.
+Noemis-MacBook-Pro:bin IrockMyWarlock$ ls
+Debug
+Noemis-MacBook-Pro:bin IrockMyWarlock$ cd ..
+Noemis-MacBook-Pro:hellonetcore IrockMyWarlock$ ls
+Program.cs              bin                     hellonetcore.csproj     obj
+Noemis-MacBook-Pro:hellonetcore IrockMyWarlock$ dotnet run
+Hello World!
+Noemis-MacBook-Pro:hellonetcore IrockMyWarlock$ 

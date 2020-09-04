@@ -1,0 +1,11 @@
+/Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/bin/Debug/netcoreapp2.2/hellonetcore.deps.json
+/Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/bin/Debug/netcoreapp2.2/hellonetcore.runtimeconfig.json
+/Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/bin/Debug/netcoreapp2.2/hellonetcore.runtimeconfig.dev.json
+/Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/bin/Debug/netcoreapp2.2/hellonetcore.dll
+/Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/bin/Debug/netcoreapp2.2/hellonetcore.pdb
+/Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/obj/Debug/netcoreapp2.2/hellonetcore.csprojAssemblyReference.cache
+/Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/obj/Debug/netcoreapp2.2/hellonetcore.csproj.CoreCompileInputs.cache
+/Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/obj/Debug/netcoreapp2.2/hellonetcore.AssemblyInfoInputs.cache
+/Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/obj/Debug/netcoreapp2.2/hellonetcore.AssemblyInfo.cs
+/Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/obj/Debug/netcoreapp2.2/hellonetcore.dll
+/Users/IrockMyWarlock/Desktop/codingdojo/c#/hellonetcore/obj/Debug/netcoreapp2.2/hellonetcore.pdb
